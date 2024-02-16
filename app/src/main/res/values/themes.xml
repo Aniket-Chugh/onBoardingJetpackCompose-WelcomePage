@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApp" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/first</item>
+        <item name = "windowSplashScreenIconBackgroundColor">#ffffff</item>
+       <item name = "postSplashScreenTheme">@style/Theme.OnboardingJetpackCompose</item>
+    </style>
+
+
+
+    <style name="Theme.OnboardingJetpackCompose" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
